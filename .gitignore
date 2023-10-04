@@ -42,9 +42,6 @@ docs/wikidocs
 # Composer
 /composer.lock
 
-# Git
-/.gitignore
-
 # Eclipse
 /.settings/
 /.editorconfig
