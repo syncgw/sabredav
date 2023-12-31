@@ -13,15 +13,16 @@
             "role" : "Developer"
         },
         {
-			"name" : "Florian Daeumling",
-			"homepage" : "https://github.com/toteph42"
+			"name" : "Florian Däumling",
+			"homepage" : "https://github.com/toteph42",
+            "role" : "Developer"
 		}
     ],
 	"require": {
         "php": "^7.1.0 || ^8.0",
         "sabre/vobject": "^4.2.1",
         "sabre/event" : "^5.0",
-        "sabre/xml"  : "^2.0.1",
+        "sabre/xml"  : "^2.2",
         "sabre/http" : "^5.0.5",
         "sabre/uri" : "^2.0",
         "ext-dom": "*",
