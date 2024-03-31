@@ -22,9 +22,9 @@
         "php": "^7.1.0 || ^8.0",
         "sabre/vobject": "^4.5",
         "sabre/event" : "^6.0",
-        "sabre/xml"  : "4.0.4",
+        "sabre/xml"  : "*",
         "sabre/http" : "^6.0",
-        "sabre/uri" : "3.0.1",
+        "sabre/uri" : "*",
         "ext-dom": "*",
         "ext-pcre": "*",
         "ext-spl": "*",
@@ -37,7 +37,15 @@
         "psr/log": "^1.0 || ^2.0 || ^3.0",
         "ext-json": "*"
    },
-   "require-dev" : {
+   "extra": {
+    	"sabre/xml": {
+    		"require": "4.0.*"
+    	},
+    	"sabre/uri": {
+    		"require": "3.0.*"
+    	}
+	},
+   	"require-dev" : {
         "friendsofphp/php-cs-fixer" : "^2.19",
         "phpstan/phpstan" : "^0.12",
         "phpunit/phpunit" : "^7.5 || ^8.5 || ^9.6",
